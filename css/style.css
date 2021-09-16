@@ -110,28 +110,28 @@ body {
 @media (max-width: 1750px) {
 
   .hero__box-top-button a {
-    font-size: 80px;
+    font-size: 75px;
   }
 }
 
 @media (max-width: 1550px) {
 
   .hero__box-top-button a {
-    font-size: 70px;
+    font-size: 65px;
   }
 }
 
 @media (max-width: 1360px) {
 
   .hero__box-top-button a {
-    font-size: 60px;
+    font-size: 55px;
   }
 }
 
 @media (max-width: 1250px) {
 
   .hero__box-top-button a {
-    font-size: 50px;
+    font-size: 45px;
   }
 }
 
@@ -142,7 +142,7 @@ body {
   }
 
   .hero__box-top-button a {
-    font-size: 40px;
+    font-size: 38px;
     border-radius: 11px;
     padding: 13px 20px 10px;
   }
