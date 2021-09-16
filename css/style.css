@@ -24,6 +24,7 @@ body {
 .wrapper {
   overflow: hidden;
   min-height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +44,8 @@ body {
   justify-content: center;
   text-align: center;
   padding: 30px;
-  flex: 1 0 50%;
+  /* flex: 1 0 50%; */
+  width: 100%;
   min-height: 100%;
 }
 
@@ -96,14 +98,22 @@ body {
   background: #e67e28;
 }
 
+.hero__box--fix {
+  position: relative;
+  height: 100vh;
+}
+
 .hero__box-logo img {
+  position: absolute;
   width: 100%;
   max-width: 655px;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  transition: all 0.4s ease;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
 }
+
+
+
 
 /* -------------------------- */
 
@@ -173,6 +183,22 @@ body {
   .hero__box {    
     padding: 15px;    
   }
+
+  .hero__box--fix {    
+    height: 100%;
+  }
+
+  .hero__box-logo img {
+    position: relative;
+    width: 100%;
+    max-width: 655px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+  }
+  
+
 }
 
 @media (max-width: 415px) {
@@ -203,7 +229,7 @@ body {
   .hero__box-top-button a {    
     font-size: 30px;    
   }
-
 }
+
 
 
