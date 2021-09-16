@@ -99,6 +99,10 @@ body {
 .hero__box-logo img {
   width: 100%;
   max-width: 655px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 /* -------------------------- */
